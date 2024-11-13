@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam's Homepage</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      /* Main Layout */
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 1rem;
+      }
+
+      header {
+        background: linear-gradient(135deg, #4c83ff, #58c7f3);
+        padding: 2rem 1rem;
+        color: #fff;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+
+      /* Navigation */
+      nav {
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      nav a {
+        color: #fff;
+        margin: 0 1rem;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      /* Sections */
+      section {
+        padding: 2rem 0;
+      }
+
+      .features,
+      .about,
+      .contact {
+        text-align: center;
+      }
+
+      .features h2,
+      .about h2,
+      .contact h2 {
+        font-size: 2rem;
+        color: #4c83ff;
+        margin-bottom: 1.5rem;
+      }
+
+      /* Features Grid */
+      .features-grid {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .feature {
+        background: #f4f4f9;
+        padding: 1.5rem;
+        border-radius: 10px;
+        flex: 1 1 250px;
+        max-width: 30%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .feature h3 {
+        color: #4c83ff;
+        margin-bottom: 1rem;
+      }
+
+      .feature p {
+        font-size: 0.95rem;
+      }
+
+      /* Footer */
+      footer {
+        background: #333;
+        color: #fff;
+        padding: 1rem;
+        margin-top: 15rem;
+        text-align: center;
+      }
+
+      footer p {
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <h1>Welcome to My Homepage</h1>
+        <p>Explore our features, learn about us, and get in touch!</p>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features container">
+      <h2>Our Features</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Feature 1</h3>
+          <p
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            elementum ac lectus sit amet aliquet.</p
+          >
+        </div>
+        <div class="feature">
+          <h3>Feature 2</h3>
+          <p
+            >Phasellus euismod felis eget felis ultrices, vitae consectetur
+            nulla scelerisque. Vivamus volutpat vehicula erat.</p
+          >
+        </div>
+        <div class="feature">
+          <h3>Feature 3</h3>
+          <p
+            >Integer eget massa et orci venenatis laoreet. In eget nisi a felis
+            tincidunt imperdiet et eu eros.</p
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Sam's Site. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
